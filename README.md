@@ -1,4 +1,4 @@
-# ConverterDataFormatModule
+# Converter Data Format Module
 Converter Data Format Module is a module that converts data from one format to other formats. 
 The module reads data in CSV file. And The data can be sorted and grouped according to custom options.
 - If you want default data: 
