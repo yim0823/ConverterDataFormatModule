@@ -38,8 +38,26 @@ and validates the data with the following conditions:
 
 and then, it provides results in JSON or YAML files.
 - The module applies a **strategy pattern** to expend other formats.
+![class_diagram](https://user-images.githubusercontent.com/3222837/50623403-d55ecb00-0f15-11e9-9731-3adce0e8975d.PNG)
 - The module makes two results such valid_hotel_(%datatime) and invalid_hotel_(%datatime).
   - valid_hotel_(%datatime)  : The result of data that has been validated.
   - invalid_hotel_(%datatime): The result of data that has been invalidated. The result will be used to improve the quality of the data.
-
+  
+  Additional implemented logger module considering scalability. This helps the operation of service.
  
+## Guiding principles
+- User friendliness
+- Modularity
+- Easy extensibility
+- Work with Python
+
+## Installation & Requirements
+- This module works with Python>3.0. This script is a script that configures the environment for executing the module. The script installs python 3 if python is not installed or if a lower version is installed. Then, It installs necessary python packages.
+```
+$sh install_python3.sh
+```
+
+## General Guideliens
+- **How to run** 
+
+
