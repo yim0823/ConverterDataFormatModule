@@ -60,7 +60,7 @@ $ sh install_python3.sh
 ## General Guideliens
 - **How to run** 
 1. Move the project to a directory what you want on the **Debian 9** server. For reference, I ran in the 'admin' directory on Debian 9.
-2. Options Description:
+> Options Description:
 ```
 -i, --input_file_name # Specify the name of file to read. Example, value is 'hotels.cvs'
 -o, --output_file_name # Specify the name of file to write. Example, value is 'json/yaml'
@@ -68,7 +68,7 @@ $ sh install_python3.sh
 -st, --sort_types # Specify ascending or descending for sorting columns. True means ascending, False means descending. Multiple values possible, seperate by space. Example, value is 'True False'
 -g, --group_by_columns # Specify the columns to group. Multiple values possible, seperate by space. Example, value is 'name stars'
 ```
-3. Run main.py from '(your path)/convert-data-format-module/src'. Example:
+2. Run main.py from '(your path)/convert-data-format-module/src'. Example:
 ```
 $ cd /home/admin/convert-data-format-module/src
 ```
@@ -92,7 +92,7 @@ $ python3 main.py -i hotels.csv -o yaml -g stars
 # output_file is .yaml | sort by name, stars | ascending for name, dscending stars | group by stars
 $ python3 main.py -i hotels.csv -o yaml -sc name stars -st True False -g stars
 ```
-4. Check the results. (path: converter_data_format_module/data)
+3. Check the results. (path: converter_data_format_module/data)
 ```
 $ cd /home/admin/convert-data-format-module/data
 $ ls
