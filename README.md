@@ -56,6 +56,7 @@ and then, it provides results in JSON or YAML files.
 ```
 $ sh install_python3.sh
 ```
+- In order to improve the readability of code, the congifuration script and the service scripts were separated.
 
 ## General Guideliens
 - **How to run** 
