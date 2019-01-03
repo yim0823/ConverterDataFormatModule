@@ -40,8 +40,8 @@ and then, it provides results in JSON or YAML files.
 - The module applies a **strategy pattern** to expend other formats.
 ![class_diagram](https://user-images.githubusercontent.com/3222837/50623403-d55ecb00-0f15-11e9-9731-3adce0e8975d.PNG)
 - The module makes two results such valid_hotel_(%datatime) and invalid_hotel_(%datatime).
-  - valid_hotel_(%datatime)  : The result of data that has been validated.
-  - invalid_hotel_(%datatime): The result of data that has been invalidated. The result will be used to improve the quality of the data.
+  - **valid_hotel_(%datatime)**  : The result of data that has been validated.
+  - **invalid_hotel_(%datatime)**: The result of data that has been invalidated. The result will be used to improve the quality of the data.
   
   Additional implemented logger module considering scalability. This helps the operation of service.
  
@@ -92,3 +92,10 @@ $ python3 main.py -i hotels.csv -o yaml -g stars
 # output_file is .yaml | sort by name, stars | ascending for name, dscending stars | group by stars
 $ python3 main.py -i hotels.csv -o yaml -sc name stars -st True False -g stars
 ```
+4. Check the results. (path: converter_data_format_module/data)
+```
+$ cd /home/admin/convert-data-format-module/data
+$ ls
+hotels.csv  invalid_hotels_(%datetime).yaml valid_hotels_(%datetime).yaml
+```
+> Check the log file. (path: converter_data_format_module/data/logs)
