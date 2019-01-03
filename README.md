@@ -13,7 +13,7 @@ python3 main.py \
  -i hotel.csv \
  -sc name stars \
  -st True, False \
- -o json
+ -o yaml
 ```
 - If you want grouped data by columns:
 ```
@@ -29,7 +29,7 @@ python3 main.py \
  -sc name stars \
  -st True, False \
  -g name address \
- -o json
+ -o yaml
 ```
 and validates the data with the following conditions:
 - The 'name' column contains only UTF-8 characters. In addition, it converts to Unicode if it contains ASCII code. 
@@ -60,22 +60,30 @@ $ sh install_python3.sh
 ## General Guideliens
 - **How to run** 
 1. Move the project to a directory what you want on the **Debian 9** server. For reference, I ran in the 'admin' directory on Debian 9.
-2. Run main.py from '(your path)/convert-data-format-module/src'. Example:
+2. Options Description:
+```
+-i, --input_file_name # Specify the name of file to read.
+```
+3. Run main.py from '(your path)/convert-data-format-module/src'. Example:
 ```
 $ cd /home/admin/convert-data-format-module/src
 ```
+- If you want default data: 
 ```
 # output_file is .yaml
 $ python3 main.py -i hotels.csv -o yaml
 ```
+- If you want sorted data by columns, and ascending, descending:
 ```
 # output_file is .json | sort by name, stars | ascending for name, dscending stars
 $ python3 main.py -i hotels.csv -o json -sc name stars -st True False
 ```
+- If you want grouped data by columns:
 ```
 # output_file is .yaml | group by stars
 $ python3 main.py -i hotels.csv -o yaml -g stars
 ```
+- If you want sorted and grouped data by columns:
 ```
 # output_file is .yaml | sort by name, stars | ascending for name, dscending stars | group by stars
 $ python3 main.py -i hotels.csv -o yaml -sc name stars -st True False -g stars
