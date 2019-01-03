@@ -54,10 +54,29 @@ and then, it provides results in JSON or YAML files.
 ## Installation & Requirements
 - This module works with Python>3.0. This script is a script that configures the environment for executing the module. The script installs python 3 if python is not installed or if a lower version is installed. Then, It installs necessary python packages.
 ```
-$sh install_python3.sh
+$ sh install_python3.sh
 ```
 
 ## General Guideliens
 - **How to run** 
-
-
+1. Move the project to a directory what you want on the **Debian 9** server. For reference, I ran in the 'admin' directory on Debian 9.
+2. Run main.py from '(your path)/convert-data-format-module/src'. Example:
+```
+$ cd /home/admin/convert-data-format-module/src
+```
+```
+# output_file is .yaml
+$ python3 main.py -i hotels.csv -o yaml
+```
+```
+# output_file is .json | sort by name, stars | ascending for name, dscending stars
+$ python3 main.py -i hotels.csv -o json -sc name stars -st True False
+```
+```
+# output_file is .yaml | group by stars
+$ python3 main.py -i hotels.csv -o yaml -g stars
+```
+```
+# output_file is .yaml | sort by name, stars | ascending for name, dscending stars | group by stars
+$ python3 main.py -i hotels.csv -o yaml -sc name stars -st True False -g stars
+```
