@@ -110,4 +110,6 @@ $ cd /home/admin/convert-data-format-module/data
 $ ls
 hotels.csv  invalid_hotels_(%datetime).yaml valid_hotels_(%datetime).yaml
 ```
-> * Check the log files. Additional implemented logger module considering scalability. This helps the operation of service. (path: converter_data_format_module/data/logs)
+> - Check the log files. 
+>   - Additional implemented logger module considering scalability. This helps the operation of service. 
+>   - path: converter_data_format_module/data/logs
