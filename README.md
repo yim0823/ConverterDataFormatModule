@@ -61,7 +61,8 @@ $ sh install_python3.sh
 ## General Guideliens
 - **How to run** 
 1. Move the project to a directory what you want on the **Debian 9** server. For reference, I ran in the 'admin' directory on Debian 9.
-> Options Description:
+
+### properties:
 ```
 -i, --input_file_name # Specify the name of file to read. Example, value is 'hotels.cvs'
 -o, --output_file_name # Specify the name of file to write. Example, value is 'json/yaml'
