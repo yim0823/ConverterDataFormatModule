@@ -52,11 +52,22 @@ and then, it provides results in JSON or YAML files.
 - Work with Python
 
 ## Installation & Requirements
-- This module works with Python>3.0. This script is a script that configures the environment for executing the module. The script installs python 3 if python is not installed or if a lower version is installed. Then, It installs necessary python packages.
+- This module works with **Python>3.0**. This script is a script that configures the environment for executing the module. The script installs python 3 if python is not installed or if a lower version is installed. Then, It installs necessary python packages.
 ```
 $ sh install_python3.sh
 ```
 - In order to improve the readability of code, the congifuration script and the service scripts were separated.
+
+## Compatibility
+The following platforms are currently tested:
+- Debian 9
+- Windows 10
+
+The following platforms are net tested but will probably work:
+- Ubuntu 14.04
+- Fedora 21
+
+> But, 'install_paython3.py' is suitable on Debian 9. It can implement to install Python according to the platform.
 
 ## General Guideliens
 - **How to run** 
