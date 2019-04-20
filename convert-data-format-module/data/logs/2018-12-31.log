@@ -1,0 +1,45 @@
+2018-12-31 03:21:01,963:DEBUG:::: Start Convert Data Format Module :::
+2018-12-31 03:21:01,963:DEBUG:Step1. Load csv file.
+2018-12-31 03:21:01,970:DEBUG:Step2. Convert csv dataframe to json dataframe to extract values.
+2018-12-31 03:21:01,971:DEBUG:Step3. Validate several conditions
+2018-12-31 03:21:01,971:DEBUG:Step4. Ready for converting.
+2018-12-31 03:21:01,973:DEBUG:::: Finish Convert Data Format Module :::
+2018-12-31 03:30:10,003:DEBUG:::: Start Convert Data Format Module :::
+2018-12-31 03:30:10,004:DEBUG:+++++++++++++++++ Condition ++++++++++++++++
+2018-12-31 03:30:10,004:DEBUG:+ Input file: {}
+2018-12-31 03:31:22,243:DEBUG:::: Start Convert Data Format Module :::
+2018-12-31 03:31:22,243:DEBUG:+++++++++++++++++ Condition ++++++++++++++++
+2018-12-31 03:31:22,243:DEBUG:+ Input file: {}
+2018-12-31 03:32:18,840:DEBUG:::: Start Convert Data Format Module :::
+2018-12-31 03:32:18,840:DEBUG:+++++++++++++++++ Condition ++++++++++++++++
+2018-12-31 03:32:18,840:DEBUG:+ Input file: {0}
+2018-12-31 03:35:13,954:DEBUG:::: Start Convert Data Format Module :::
+2018-12-31 03:35:13,954:DEBUG:+++++++++++++++++ Condition ++++++++++++++++
+2018-12-31 03:35:13,954:DEBUG:+ Input file: sample.csv
+2018-12-31 03:35:13,954:DEBUG:+ Output format: {0}
+2018-12-31 03:36:19,672:DEBUG:::: Start Convert Data Format Module :::
+2018-12-31 03:36:19,672:DEBUG:+++++++++++++++++ Condition ++++++++++++++++
+2018-12-31 03:36:19,672:DEBUG:+ Input file: sample.csv
+2018-12-31 03:36:19,672:DEBUG:+ Output format: json
+2018-12-31 03:36:19,673:DEBUG:+ Sort Columns: ['name', 'stars']
+2018-12-31 03:36:19,673:DEBUG:+ Sort Types: [True, False]
+2018-12-31 03:36:19,673:DEBUG:+ Groupby Columns: ['stars']
+2018-12-31 03:36:19,673:DEBUG:++++++++++++++++++++++++++++++++++++++++++++
+2018-12-31 03:36:19,673:DEBUG:Step1. Load csv file.
+2018-12-31 03:36:19,680:DEBUG:Step2. Convert csv dataframe to json dataframe to extract values.
+2018-12-31 03:36:19,682:DEBUG:Step3. Validate several conditions
+2018-12-31 03:36:19,682:DEBUG:Step4. Ready for converting.
+2018-12-31 03:36:19,684:DEBUG:::: Finish Convert Data Format Module :::
+2018-12-31 03:46:44,568:INFO:::: Start Convert Data Format Module :::
+2018-12-31 03:46:44,568:INFO:+++++++++++++++++ Condition ++++++++++++++++
+2018-12-31 03:46:44,569:INFO:+ Input file: sample.csv
+2018-12-31 03:46:44,569:INFO:+ Output format: json
+2018-12-31 03:46:44,569:INFO:+ Sort Columns: ['name', 'stars']
+2018-12-31 03:46:44,569:INFO:+ Sort Types: [True, False]
+2018-12-31 03:46:44,569:INFO:+ Groupby Columns: ['stars']
+2018-12-31 03:46:44,569:INFO:++++++++++++++++++++++++++++++++++++++++++++
+2018-12-31 03:46:44,569:INFO:Step1. Load csv file.
+2018-12-31 03:46:44,575:INFO:Step2. Convert csv dataframe to json dataframe to extract values.
+2018-12-31 03:46:44,577:INFO:Step3. Validate several conditions
+2018-12-31 03:46:44,577:INFO:Step4. Ready for converting.
+2018-12-31 03:46:44,579:INFO:::: Finish Convert Data Format Module :::

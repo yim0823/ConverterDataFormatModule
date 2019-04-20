@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//src/main.py=utf-8
+encoding//src/package/converter/converter_algorithm.py=utf-8
+encoding//src/package/converter/converter_service.py=utf-8
+encoding//src/package/converter/json_converter.py=utf-8
+encoding//src/package/converter/yaml_converter.py=utf-8
+encoding//src/package/loader/csv_loader.py=utf-8
+encoding//src/package/utils/installer.py=utf-8
+encoding//src/package/utils/logger.py=utf-8
+encoding//src/package/utils/test_logger.py=utf-8
+encoding//src/package/utils/utils.py=utf-8
+encoding//src/package/utils/validator.py=utf-8
+encoding//test/package/converter/test_converter.py=utf-8
+encoding//test/package/loader/test_loader.py=utf-8
+encoding//test/package/utils/test_installer.py=utf-8
+encoding//test/package/utils/test_utils.py=utf-8
+encoding//test/test_main.py=utf-8

@@ -1,0 +1,104 @@
+2019-01-01 22:01:11,696 - DEBUG - get_logger:59 - [Converter] - configuration loaded
+2019-01-01 22:01:11,696 - INFO - main:66 - [Converter] - ::: Start Convert Data Format Module :::
+2019-01-01 22:01:11,699 - INFO - main:81 - [Converter] - ++++++++++++++++ Condition +++++++++++++++
+2019-01-01 22:01:11,701 - INFO - main:82 - [Converter] - + Input file: hotels.csv
+2019-01-01 22:01:11,702 - INFO - main:83 - [Converter] - + Output format: yaml
+2019-01-01 22:01:11,703 - INFO - main:84 - [Converter] - + Sort Columns: ['name', 'stars']
+2019-01-01 22:01:11,703 - INFO - main:85 - [Converter] - + Sort Types: [True, True]
+2019-01-01 22:01:11,704 - INFO - main:86 - [Converter] - + Group by Columns: None
+2019-01-01 22:01:11,704 - INFO - main:87 - [Converter] - ++++++++++++++++++++++++++++++++++++++++++
+2019-01-01 22:01:11,705 - INFO - main:90 - [Converter] - Step1. Load csv file.
+2019-01-01 22:01:11,730 - INFO - main:96 - [Converter] - Step2. Convert csv dataframe to json dataframe to extract values.
+2019-01-01 22:01:11,748 - INFO - main:102 - [Converter] - Step3. Validate several conditions
+2019-01-01 22:01:11,769 - INFO - main:125 - [Converter] - Step4. Ready for converting.
+2019-01-01 22:05:04,242 - DEBUG - get_logger:59 - [Converter] - configuration loaded
+2019-01-01 22:05:04,354 - INFO - main:66 - [Converter] - ::: Start Convert Data Format Module :::
+2019-01-01 22:05:04,354 - INFO - main:81 - [Converter] - ++++++++++++++++ Condition +++++++++++++++
+2019-01-01 22:05:04,359 - INFO - main:82 - [Converter] - + Input file: hotels.csv
+2019-01-01 22:05:04,360 - INFO - main:83 - [Converter] - + Output format: json
+2019-01-01 22:05:04,361 - INFO - main:84 - [Converter] - + Sort Columns: ['name', 'stars']
+2019-01-01 22:05:04,362 - INFO - main:85 - [Converter] - + Sort Types: [True, True]
+2019-01-01 22:05:04,363 - INFO - main:86 - [Converter] - + Group by Columns: None
+2019-01-01 22:05:04,364 - INFO - main:87 - [Converter] - ++++++++++++++++++++++++++++++++++++++++++
+2019-01-01 22:05:04,365 - INFO - main:90 - [Converter] - Step1. Load csv file.
+2019-01-01 22:05:04,389 - INFO - main:96 - [Converter] - Step2. Convert csv dataframe to json dataframe to extract values.
+2019-01-01 22:05:04,407 - INFO - main:102 - [Converter] - Step3. Validate several conditions
+2019-01-01 22:05:04,430 - INFO - main:125 - [Converter] - Step4. Ready for converting.
+2019-01-01 22:05:04,530 - INFO - main:139 - [Converter] - ::: Finish Convert Data Format Module :::
+2019-01-01 22:46:42,370 - DEBUG - get_logger:59 - [Converter] - configuration loaded
+2019-01-01 22:46:42,513 - INFO - main:52 - [Converter] - ::: Start Convert Data Format Module :::
+2019-01-01 22:46:42,514 - INFO - main:67 - [Converter] - ++++++++++++++++ Condition +++++++++++++++
+2019-01-01 22:46:42,515 - INFO - main:68 - [Converter] - + Input file: hotels.csv
+2019-01-01 22:46:42,517 - INFO - main:69 - [Converter] - + Output format: yaml
+2019-01-01 22:46:42,518 - INFO - main:70 - [Converter] - + Sort Columns: ['name', 'stars']
+2019-01-01 22:46:42,519 - INFO - main:71 - [Converter] - + Sort Types: [True, True]
+2019-01-01 22:46:42,519 - INFO - main:72 - [Converter] - + Group by Columns: None
+2019-01-01 22:46:42,520 - INFO - main:73 - [Converter] - ++++++++++++++++++++++++++++++++++++++++++
+2019-01-01 22:46:42,521 - INFO - main:76 - [Converter] - Step1. Load csv file.
+2019-01-01 22:46:42,548 - INFO - main:82 - [Converter] - Step2. Convert csv dataframe to json dataframe to extract values.
+2019-01-01 22:46:42,569 - INFO - main:88 - [Converter] - Step3. Validate several conditions
+2019-01-01 22:46:42,593 - INFO - main:111 - [Converter] - Step4. Ready for converting.
+2019-01-01 22:46:42,594 - INFO - writeTo:30 - [Converter] - Write data to yaml.
+2019-01-01 22:46:44,634 - INFO - writeTo:30 - [Converter] - Write data to yaml.
+2019-01-01 22:46:44,636 - INFO - main:125 - [Converter] - ::: Finish Convert Data Format Module :::
+2019-01-01 22:49:17,773 - DEBUG - get_logger:59 - [Converter] - configuration loaded
+2019-01-01 22:49:17,915 - INFO - main:52 - [Converter] - ::: Start Convert Data Format Module :::
+2019-01-01 22:49:17,916 - INFO - main:67 - [Converter] - ++++++++++++++++ Condition +++++++++++++++
+2019-01-01 22:49:17,918 - INFO - main:68 - [Converter] - + Input file: hotels.csv
+2019-01-01 22:49:17,919 - INFO - main:69 - [Converter] - + Output format: yaml
+2019-01-01 22:49:17,921 - INFO - main:70 - [Converter] - + Sort Columns: ['name', 'stars']
+2019-01-01 22:49:17,922 - INFO - main:71 - [Converter] - + Sort Types: [True, True]
+2019-01-01 22:49:17,922 - INFO - main:72 - [Converter] - + Group by Columns: None
+2019-01-01 22:49:17,923 - INFO - main:73 - [Converter] - ++++++++++++++++++++++++++++++++++++++++++
+2019-01-01 22:49:17,924 - INFO - main:76 - [Converter] - Step1. Load csv file.
+2019-01-01 22:49:17,948 - INFO - main:82 - [Converter] - Step2. Convert csv dataframe to json dataframe to extract values.
+2019-01-01 22:49:17,969 - INFO - main:88 - [Converter] - Step3. Validate several conditions
+2019-01-01 22:49:17,994 - INFO - main:111 - [Converter] - Step4. Ready for converting.
+2019-01-01 22:49:17,994 - INFO - writeTo:30 - [Converter] - Write data to {}.
+2019-01-01 22:49:17,996 - ERROR - writeTo:34 - [Converter] - {} {}
+2019-01-01 22:51:33,988 - DEBUG - get_logger:59 - [Converter] - configuration loaded
+2019-01-01 22:51:34,124 - INFO - main:52 - [Converter] - ::: Start Convert Data Format Module :::
+2019-01-01 22:51:34,124 - INFO - main:67 - [Converter] - ++++++++++++++++ Condition +++++++++++++++
+2019-01-01 22:51:34,128 - INFO - main:68 - [Converter] - + Input file: hotels.csv
+2019-01-01 22:51:34,129 - INFO - main:69 - [Converter] - + Output format: yaml
+2019-01-01 22:51:34,130 - INFO - main:70 - [Converter] - + Sort Columns: ['name', 'stars']
+2019-01-01 22:51:34,131 - INFO - main:71 - [Converter] - + Sort Types: [True, True]
+2019-01-01 22:51:34,132 - INFO - main:72 - [Converter] - + Group by Columns: None
+2019-01-01 22:51:34,132 - INFO - main:73 - [Converter] - ++++++++++++++++++++++++++++++++++++++++++
+2019-01-01 22:51:34,133 - INFO - main:76 - [Converter] - Step1. Load csv file.
+2019-01-01 22:51:34,157 - INFO - main:82 - [Converter] - Step2. Convert csv dataframe to json dataframe to extract values.
+2019-01-01 22:51:34,178 - INFO - main:88 - [Converter] - Step3. Validate several conditions
+2019-01-01 22:51:34,202 - INFO - main:111 - [Converter] - Step4. Ready for converting.
+2019-01-01 22:51:36,389 - INFO - main:125 - [Converter] - ::: Finish Convert Data Format Module :::
+2019-01-01 22:53:45,084 - DEBUG - get_logger:59 - [Converter] - configuration loaded
+2019-01-01 22:53:45,218 - INFO - main:52 - [Converter] - ::: Start Convert Data Format Module :::
+2019-01-01 22:53:45,219 - INFO - main:67 - [Converter] - ++++++++++++++++ Condition +++++++++++++++
+2019-01-01 22:53:45,221 - INFO - main:68 - [Converter] - + Input file: hotels.csv
+2019-01-01 22:53:45,223 - INFO - main:69 - [Converter] - + Output format: yaml
+2019-01-01 22:53:45,225 - INFO - main:70 - [Converter] - + Sort Columns: ['name', 'stars']
+2019-01-01 22:53:45,225 - INFO - main:71 - [Converter] - + Sort Types: [True, True]
+2019-01-01 22:53:45,226 - INFO - main:72 - [Converter] - + Group by Columns: None
+2019-01-01 22:53:45,227 - INFO - main:73 - [Converter] - ++++++++++++++++++++++++++++++++++++++++++
+2019-01-01 22:53:45,228 - INFO - main:76 - [Converter] - Step1. Load csv file.
+2019-01-01 22:53:45,259 - INFO - main:82 - [Converter] - Step2. Convert csv dataframe to json dataframe to extract values.
+2019-01-01 22:53:45,279 - INFO - main:88 - [Converter] - Step3. Validate several conditions
+2019-01-01 22:53:45,303 - INFO - main:111 - [Converter] - Step4. Ready for converting.
+2019-01-01 22:53:45,304 - INFO - writeTo:30 - [Converter] - Write data to C:\Users\gtrus\eclipse-workspace\convert-data-format-module/data/valid_hotels_20190101225345.yaml.
+2019-01-01 22:53:47,329 - INFO - writeTo:30 - [Converter] - Write data to C:\Users\gtrus\eclipse-workspace\convert-data-format-module/data/invalid_hotels_20190101225347.yaml.
+2019-01-01 22:53:47,331 - INFO - main:125 - [Converter] - ::: Finish Convert Data Format Module :::
+2019-01-01 22:54:13,524 - DEBUG - get_logger:59 - [Converter] - configuration loaded
+2019-01-01 22:54:13,660 - INFO - main:52 - [Converter] - ::: Start Convert Data Format Module :::
+2019-01-01 22:54:13,661 - INFO - main:67 - [Converter] - ++++++++++++++++ Condition +++++++++++++++
+2019-01-01 22:54:13,663 - INFO - main:68 - [Converter] - + Input file: hotels.csv
+2019-01-01 22:54:13,664 - INFO - main:69 - [Converter] - + Output format: json
+2019-01-01 22:54:13,665 - INFO - main:70 - [Converter] - + Sort Columns: ['name', 'stars']
+2019-01-01 22:54:13,665 - INFO - main:71 - [Converter] - + Sort Types: [True, True]
+2019-01-01 22:54:13,666 - INFO - main:72 - [Converter] - + Group by Columns: None
+2019-01-01 22:54:13,666 - INFO - main:73 - [Converter] - ++++++++++++++++++++++++++++++++++++++++++
+2019-01-01 22:54:13,667 - INFO - main:76 - [Converter] - Step1. Load csv file.
+2019-01-01 22:54:13,693 - INFO - main:82 - [Converter] - Step2. Convert csv dataframe to json dataframe to extract values.
+2019-01-01 22:54:13,714 - INFO - main:88 - [Converter] - Step3. Validate several conditions
+2019-01-01 22:54:13,739 - INFO - main:111 - [Converter] - Step4. Ready for converting.
+2019-01-01 22:54:13,740 - INFO - writeTo:30 - [Converter] - Write data to C:\Users\gtrus\eclipse-workspace\convert-data-format-module/data/valid_hotels_20190101225413.json.
+2019-01-01 22:54:13,850 - INFO - writeTo:30 - [Converter] - Write data to C:\Users\gtrus\eclipse-workspace\convert-data-format-module/data/invalid_hotels_20190101225413.json.
+2019-01-01 22:54:13,851 - INFO - main:125 - [Converter] - ::: Finish Convert Data Format Module :::
